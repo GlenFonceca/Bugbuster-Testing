@@ -5,15 +5,6 @@ labels: ["bug"]
 assignees: []
 
 body:
-  - type: input
-    id: title
-    attributes:
-      label: Title
-      description: Short title summarizing the bug
-      placeholder: ex. "App crashes on clicking Save"
-    validations:
-      required: true
-
   - type: textarea
     id: description
     attributes:
