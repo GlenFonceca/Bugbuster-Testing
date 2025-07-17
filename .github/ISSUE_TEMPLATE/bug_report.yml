@@ -63,7 +63,7 @@ body:
         - Low
         - Medium
         - High
-      default: Medium
+      default: 1  # Medium
     validations:
       required: true
 
@@ -77,7 +77,7 @@ body:
         - High
         - Medium
         - Low
-      default: Medium
+      default: 2  # Medium
     validations:
       required: true
 
